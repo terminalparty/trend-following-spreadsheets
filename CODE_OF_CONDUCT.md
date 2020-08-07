@@ -11,4 +11,4 @@ orientation.
 
 ## Our Standards
 
-Examples of behavior that
+Examples of behavior that contributes to creating a positive envi
