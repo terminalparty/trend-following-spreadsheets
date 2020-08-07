@@ -11,4 +11,7 @@ orientation.
 
 ## Our Standards
 
-Examples of behavior that contributes to creating a positive envi
+Examples of behavior that contributes to creating a positive environment
+include:
+
+* Using welcoming and 
