@@ -20,4 +20,6 @@ include:
 * Focusing on what is best for the community
 * Showing empathy towards other community members
 
-Examples of unacceptable
+Examples of unacceptable behavior by participants include:
+
+* The use o
