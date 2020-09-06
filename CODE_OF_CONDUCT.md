@@ -22,4 +22,4 @@ include:
 
 Examples of unacceptable behavior by participants include:
 
-* The use o
+* The use of sexualized language or imagery and unwelcome sexua
