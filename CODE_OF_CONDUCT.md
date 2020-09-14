@@ -33,4 +33,5 @@ advances
 
 ## Our Responsibilities
 
-Project maintainers are responsible
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior 
