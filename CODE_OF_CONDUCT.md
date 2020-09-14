@@ -31,4 +31,6 @@ advances
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-## Our R
+## Our Responsibilities
+
+Project maintainers are responsible
