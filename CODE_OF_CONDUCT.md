@@ -34,4 +34,4 @@ advances
 ## Our Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
-behavior 
+behavior and are expected to take appropriate and 
