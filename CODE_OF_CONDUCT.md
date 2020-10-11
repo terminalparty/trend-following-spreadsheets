@@ -45,4 +45,5 @@ threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in pub
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representi
