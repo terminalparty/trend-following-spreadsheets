@@ -1,2 +1,7 @@
 PATH
-  remot
+  remote: .
+  specs:
+    coingecko_ruby (0.1.0)
+
+GEM
+  remo
