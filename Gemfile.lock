@@ -8,4 +8,7 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    ast (
+    ast (2.4.0)
+    byebug (11.0.1)
+    coderay (1.1.2)
+    dif
