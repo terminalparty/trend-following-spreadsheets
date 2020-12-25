@@ -15,4 +15,6 @@ GEM
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     http (3.3.0)
-      ad
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-for
