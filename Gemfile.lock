@@ -26,4 +26,6 @@ GEM
     jaro_winkler (1.5.3)
     json (2.2.0)
     method_source (0.9.2)
-    parallel
+    parallel (1.17.0)
+    parser (2.6.4.0)
+      ast (~> 
