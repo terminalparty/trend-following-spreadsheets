@@ -36,4 +36,6 @@ GEM
     rainbow (3.0.0)
     rake (10.5.0)
     rspec (3.8.0)
-      rspec-co
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+ 
