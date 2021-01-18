@@ -38,4 +38,6 @@ GEM
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
- 
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rs
