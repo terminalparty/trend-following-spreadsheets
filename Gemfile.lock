@@ -45,4 +45,5 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-mocks (3.8.0)
-      di
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support
