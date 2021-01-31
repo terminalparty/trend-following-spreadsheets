@@ -52,4 +52,5 @@ GEM
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
-      rainbow (
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.
