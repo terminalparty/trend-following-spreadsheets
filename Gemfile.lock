@@ -53,4 +53,5 @@ GEM
       parallel (~> 1.10)
       parser (>= 2.6)
       rainbow (>= 2.2.2, < 4.0)
-      ruby-progressbar (~> 1.
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 
