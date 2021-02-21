@@ -64,4 +64,9 @@ GEM
 PLATFORMS
   ruby
 
-DEPEN
+DEPENDENCIES
+  bundler (~> 2.0.2)
+  byebug
+  coingecko_ruby!
+  http
+  
