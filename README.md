@@ -22,4 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usag
+TODO: Write usage instructions here
+
+## Development
+
+Af
