@@ -18,4 +18,8 @@ And then execute:
 
 Or install it yourself as:
 
-    $ ge
+    $ gem install coingecko-ruby
+
+## Usage
+
+TODO: Write usag
