@@ -26,4 +26,4 @@ TODO: Write usage instructions here
 
 ## Development
 
-Af
+After checking out the repo, run `bin/setup` 
