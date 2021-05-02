@@ -36,4 +36,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 ## License
 
-The gem is av
+The gem is available as open source under the terms of the [MIT L
