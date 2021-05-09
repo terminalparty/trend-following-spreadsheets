@@ -40,4 +40,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacti
+Everyone interacting in the Coingecko::Ruby project’s codebase
