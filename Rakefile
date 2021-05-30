@@ -7,4 +7,7 @@ task :default => :spec
 
 task :console do
   require 'pry'
-  require 'coingecko_ruby
+  require 'coingecko_ruby'
+
+  def reload!
+    files = $LOADED_FEATU
