@@ -6,4 +6,5 @@ RSpec::Core::RakeTask.new(:spec)
 task :default => :spec
 
 task :console do
-  requ
+  require 'pry'
+  require 'coingecko_ruby
