@@ -10,4 +10,8 @@ task :console do
   require 'coingecko_ruby'
 
   def reload!
-    files = $LOADED_FEATURES.select { |feat| feat =~ /\/coingecko-ruby\
+    files = $LOADED_FEATURES.select { |feat| feat =~ /\/coingecko-ruby\// }
+    files.each { |file| load file }
+  end
+
+  
