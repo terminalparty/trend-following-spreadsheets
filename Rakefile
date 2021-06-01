@@ -14,4 +14,6 @@ task :console do
     files.each { |file| load file }
   end
 
-  
+  ARGV.clear
+  Pry.start
+end
