@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "coingec
+require "coingecko_ruby"
+
+# You can add fixtures and/or 
