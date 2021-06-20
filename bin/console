@@ -11,4 +11,4 @@ require "coingecko_ruby"
 # Pry.start
 
 require "pry"
-Pry.start
+Pry.start(__FILE__)
