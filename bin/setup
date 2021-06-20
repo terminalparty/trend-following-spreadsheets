@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-IF
+IFS=$'\n\t'
+set -vx
+
+bundle install
+
+# Do an
