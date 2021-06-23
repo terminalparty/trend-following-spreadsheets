@@ -50,3 +50,41 @@ module CoingeckoRuby
         sparkline, price_change_percentage
       )
     end
+
+    def coin_tickers(id, exchange_ids, include_exchange_logo = false, page = 1,
+                     order = 'trust_score_desc')
+      CoingeckoRuby::Services::Coins::Tickers.new.fetch(
+        id, exchange_ids, include_exchange_logo, page,
+        order
+      )
+    end
+
+    def coin_history(id, date, localization = true)
+      CoingeckoRuby::Services::Coins::History.new.fetch(
+        id, date, localization
+      )
+    end
+
+    def coin_market_chart(id, vs_currency, days)
+      CoingeckoRuby::Services::Coins::MarketChart.new.fetch(
+        id, vs_currency, days
+      )
+    end
+
+    def coin_market_chart_in_range(id, vs_currency, from, to)
+      CoingeckoRuby::Services::Coins::MarketChartInRange.new.fetch(
+        id, vs_currency, from, to
+      )
+    end
+
+    def coin_status_updates(id)
+      CoingeckoRuby::Services::Coins::StatusUpdates.new.fetch(id)
+    end
+
+    def contract_coin(id, contract_address)
+      CoingeckoRuby::Services::Contract::Coin.new.fetch(id, contract_address)
+    end
+
+    def contract_market_chart(id, contract_address, vs_currency, days)
+      CoingeckoRuby::Services::Contract::MarketChart.new.fetch(id, contract_address, vs_currency, days)
+    end
