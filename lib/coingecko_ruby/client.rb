@@ -88,3 +88,53 @@ module CoingeckoRuby
     def contract_market_chart(id, contract_address, vs_currency, days)
       CoingeckoRuby::Services::Contract::MarketChart.new.fetch(id, contract_address, vs_currency, days)
     end
+
+    def contract_market_chart_in_range(id, contract_address, vs_currency, from, to)
+      CoingeckoRuby::Services::Contract::MarketChartInRange.new.fetch(id, contract_address, vs_currency, from, to)
+    end
+
+    def exchanges
+      CoingeckoRuby::Services::Exchanges::Exchanges.new.fetch
+    end
+
+    def exchanges_list
+      CoingeckoRuby::Services::Exchanges::List.new.fetch
+    end
+
+    def exchange(id)
+      CoingeckoRuby::Services::Exchanges::Exchange.new.fetch(id)
+    end
+
+    def exchange_tickers(id, coin_ids = nil, include_exchange_logo = false, page = 1, order = 'trust_score_desc')
+      CoingeckoRuby::Services::Exchanges::Tickers.new.fetch(id, coin_ids, include_exchange_logo, page, order)
+    end
+
+    def exchange_status_updates(id)
+      CoingeckoRuby::Services::Exchanges::StatusUpdates.new.fetch(id)
+    end
+
+    def exchange_volume_chart(id, days)
+      CoingeckoRuby::Services::Exchanges::VolumeChart.new.fetch(id, days)
+    end
+
+    def status_updates(category = '', project_type = '', per_page = 50, page = 1)
+      CoingeckoRuby::Services::StatusUpdate::StatusUpdate.new.fetch(category, project_type, per_page, page)
+    end
+
+    def events
+      CoingeckoRuby::Services::Events::Events.new.fetch
+    end
+
+    def events_countries
+      CoingeckoRuby::Services::Events::Countries.new.fetch
+    end
+
+    def global
+      CoingeckoRuby::Services::Global::Global.new.fetch
+    end
+
+    def exchange_rates
+      CoingeckoRuby::Services::ExchangeRates::ExchangeRates.new.fetch
+    end
+  end
+end
