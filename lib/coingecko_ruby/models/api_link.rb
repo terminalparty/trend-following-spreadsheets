@@ -45,3 +45,50 @@ module CoingeckoRuby
       def self.coin_status_updates_url(id)
         "#{API_ENDPOINT}/coins/#{id}/status_updates"
       end
+
+      def self.contract_coin_url(id, contract_address)
+        "#{API_ENDPOINT}/coins/#{id}/contract/#{contract_address}"
+      end
+
+      def self.contract_market_chart_url(id, contract_address, vs_currency, days)
+        "#{API_ENDPOINT}/coins/#{id}/contract/#{contract_address}/market_chart/?vs_currency=#{vs_currency}&days=#{days}"
+      end
+
+      def self.contract_market_chart_in_range_url(id, contract_address, vs_currency, from, to)
+        "#{API_ENDPOINT}/coins/#{id}/contract/#{contract_address}/market_chart/range?vs_currency=#{vs_currency}&from=#{from}&to=#{to}"
+      end
+
+      def self.exchanges_url
+        "#{API_ENDPOINT}/exchanges"
+      end
+
+      def self.exchanges_list_url
+        "#{API_ENDPOINT}/exchanges/list"
+      end
+
+      def self.exchange_url(id)
+        "#{API_ENDPOINT}/exchanges/#{id}"
+      end
+
+      def self.exchange_tickers_url(id, coin_ids, include_exchange_logo, page, order)
+        "#{API_ENDPOINT}/exchanges/#{id}/tickers?coin_ids=#{coin_ids}&include_exchange_logo=#{include_exchange_logo}&page=#{page}&order=#{order}"
+      end
+
+      def self.exchange_status_updates_url(id)
+        "#{API_ENDPOINT}/exchanges/#{id}/status_updates"
+      end
+
+      def self.exchange_volume_chart_url(id, days)
+        "#{API_ENDPOINT}/exchanges/#{id}/volume_chart?days=#{days}"
+      end
+
+      def self.ping_url
+        "#{API_ENDPOINT}/ping"
+      end
+
+      def self.supported_vs_currencies_url
+        "#{API_ENDPOINT}/simple/supported_vs_currencies"
+      end
+
+      def self.status_update_url(category, project_type, per_page, page)
+        "#{API_ENDPOINT}/status_updates?category=#{category}&project_type=#{project_type}&per_page=#{per_page}&page=#{page}"
