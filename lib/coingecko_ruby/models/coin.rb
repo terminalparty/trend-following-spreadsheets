@@ -6,4 +6,5 @@ module CoingeckoRuby
       attr_accessor :id, :symbol, :name,
                     :block_time_in_minutes, :categories, :localization,
                     :description, :links, :image,
-                    :cou
+                    :country_origin, :genesis_date, :market_cap_rank,
+        
