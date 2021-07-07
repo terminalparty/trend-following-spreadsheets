@@ -7,4 +7,4 @@ module CoingeckoRuby
                     :block_time_in_minutes, :categories, :localization,
                     :description, :links, :image,
                     :country_origin, :genesis_date, :market_cap_rank,
-        
+                    :coingecko_rank, :coingecko_score,
