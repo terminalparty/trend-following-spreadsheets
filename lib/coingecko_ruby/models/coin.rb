@@ -9,4 +9,5 @@ module CoingeckoRuby
                     :country_origin, :genesis_date, :market_cap_rank,
                     :coingecko_rank, :coingecko_score, :developer_score,
                     :community_score, :liquidity_score, :public_interest_score,
-                    :market_data
+                    :market_data, :community_data, :developer_data,
+                 
