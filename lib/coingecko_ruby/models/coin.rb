@@ -12,4 +12,4 @@ module CoingeckoRuby
                     :market_data, :community_data, :developer_data,
                     :public_interest_stats, :status_updates, :last_updated,
                     :tickers, :vs_currency, :ids, :current_price, :market_cap,
-                    :total
+                    :total_volume, :high_24h, :low_24h, :price_change_24h,
