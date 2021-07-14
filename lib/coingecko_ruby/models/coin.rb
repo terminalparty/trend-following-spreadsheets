@@ -11,4 +11,5 @@ module CoingeckoRuby
                     :community_score, :liquidity_score, :public_interest_score,
                     :market_data, :community_data, :developer_data,
                     :public_interest_stats, :status_updates, :last_updated,
-                    :tickers, :vs_currency, :ids, :current_pr
+                    :tickers, :vs_currency, :ids, :current_price, :market_cap,
+                    :total
