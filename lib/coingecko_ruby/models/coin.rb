@@ -13,4 +13,5 @@ module CoingeckoRuby
                     :public_interest_stats, :status_updates, :last_updated,
                     :tickers, :vs_currency, :ids, :current_price, :market_cap,
                     :total_volume, :high_24h, :low_24h, :price_change_24h,
-                    :price_change_percentage_24h, :ma
+                    :price_change_percentage_24h, :market_cap_change_24h,
+                    :ma
