@@ -16,4 +16,4 @@ module CoingeckoRuby
                     :price_change_percentage_24h, :market_cap_change_24h,
                     :market_cap_change_percentage_24h, :total_supply,
                     :ath, :ath_change_percentage, :ath_date, :roi,
-                    :sparklin
+                    :sparkline_in_7d, :price_change_percentage_1
