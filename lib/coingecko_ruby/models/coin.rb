@@ -15,4 +15,5 @@ module CoingeckoRuby
                     :total_volume, :high_24h, :low_24h, :price_change_24h,
                     :price_change_percentage_24h, :market_cap_change_24h,
                     :market_cap_change_percentage_24h, :total_supply,
-                    :ath, :ath_change_percentage, :ath
+                    :ath, :ath_change_percentage, :ath_date, :roi,
+                    :sparklin
