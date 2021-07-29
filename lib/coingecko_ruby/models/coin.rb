@@ -19,4 +19,7 @@ module CoingeckoRuby
                     :sparkline_in_7d, :price_change_percentage_1h_in_currency,
                     :prices, :market_caps, :total_volumes, :asset_platform_id,
                     :contract_address, :sentiment_votes_up_percentage,
-                    :sentiment
+                    :sentiment_votes_down_percentage
+    end
+  end
+end
