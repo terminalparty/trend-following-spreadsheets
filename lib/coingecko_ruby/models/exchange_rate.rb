@@ -1,3 +1,5 @@
 # frozen_string_literal: true
 
-mo
+module CoingeckoRuby
+  module Models
+    class Exch
