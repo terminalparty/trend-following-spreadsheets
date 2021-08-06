@@ -3,4 +3,7 @@
 module CoingeckoRuby
   module Models
     class ExchangeRate
-      attr_accessor :name, :unit, :value, :t
+      attr_accessor :name, :unit, :value, :type
+    end
+  end
+end
