@@ -1,3 +1,5 @@
 # frozen_string_literal: true
 
-mod
+module CoingeckoRuby
+  module Models
+    class
