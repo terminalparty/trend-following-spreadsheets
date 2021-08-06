@@ -2,4 +2,5 @@
 
 module CoingeckoRuby
   module Models
-    class Exch
+    class ExchangeRate
+      attr_accessor :name, :unit, :value, :t
