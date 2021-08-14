@@ -2,4 +2,5 @@
 
 module CoingeckoRuby
   module Models
-    class
+    class Global
+      attr_accessor :active_cr
