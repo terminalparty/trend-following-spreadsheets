@@ -6,3 +6,4 @@ module CoingeckoRuby
       attr_accessor :id, :symbol, :name
     end
   end
+end
