@@ -2,4 +2,5 @@
 
 module CoingeckoRuby
   module Models
-    class
+    class Simple
+      attr_accessor :last, :market
