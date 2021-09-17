@@ -5,4 +5,4 @@ module CoingeckoRuby::Services::Coins
     def fetch(id, localization, tickers,
               market_data, community_data, developer_data,
               sparkline)
-      output = super
+      output = super(CoingeckoRuby::Models::ApiLink.coin_url(
