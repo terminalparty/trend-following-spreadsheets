@@ -7,4 +7,4 @@ module CoingeckoRuby::Services::Coins
               sparkline)
       output = super(CoingeckoRuby::Models::ApiLink.coin_url(
         id, localization, tickers,
-        ma
+        market_data, community_data, developer_d
