@@ -10,4 +10,8 @@ module CoingeckoRuby::Services::Coins
         market_data, community_data, developer_data,
         sparkline
       ))
-      adapt(o
+      adapt(output)
+    end
+
+    def adapt(output)
+      coin = 
