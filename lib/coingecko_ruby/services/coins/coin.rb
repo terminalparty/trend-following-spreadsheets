@@ -15,3 +15,5 @@ module CoingeckoRuby::Services::Coins
 
     def adapt(output)
       coin = CoingeckoRuby::Models::Coin.new
+      coin.id = output['id']
+      coin.symbol = output['sym
