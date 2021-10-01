@@ -18,4 +18,4 @@ module CoingeckoRuby::Services::Coins
       coin.id = output['id']
       coin.symbol = output['symbol']
       coin.name = output['name']
-      coin.
+      coin.block_time_in_minutes = output['block_time_in_
