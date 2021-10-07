@@ -21,4 +21,5 @@ module CoingeckoRuby::Services::Coins
       coin.block_time_in_minutes = output['block_time_in_minutes']
       coin.categories = output['categories']
       coin.localization = output['localization']
-      coin.
+      coin.description = output['description']
+ 
