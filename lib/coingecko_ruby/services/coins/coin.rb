@@ -22,4 +22,5 @@ module CoingeckoRuby::Services::Coins
       coin.categories = output['categories']
       coin.localization = output['localization']
       coin.description = output['description']
- 
+      coin.links = output['links']
+      coin
