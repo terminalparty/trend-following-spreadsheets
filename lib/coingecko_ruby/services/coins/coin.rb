@@ -24,4 +24,5 @@ module CoingeckoRuby::Services::Coins
       coin.description = output['description']
       coin.links = output['links']
       coin.image = output['image']
-      coin.country_
+      coin.country_origin = output['country_origin']
+      coin.genes
