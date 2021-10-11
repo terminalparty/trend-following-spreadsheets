@@ -26,4 +26,5 @@ module CoingeckoRuby::Services::Coins
       coin.image = output['image']
       coin.country_origin = output['country_origin']
       coin.genesis_date = output['genesis_date']
-      co
+      coin.market_cap_rank = output['market_cap_rank']
+  
