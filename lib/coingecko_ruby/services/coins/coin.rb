@@ -28,4 +28,5 @@ module CoingeckoRuby::Services::Coins
       coin.genesis_date = output['genesis_date']
       coin.market_cap_rank = output['market_cap_rank']
       coin.coingecko_rank = output['coingecko_rank']
-      coin.coingecko_score = ou
+      coin.coingecko_score = output['coingecko_score']
+      coin.develo
