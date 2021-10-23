@@ -30,4 +30,5 @@ module CoingeckoRuby::Services::Coins
       coin.coingecko_rank = output['coingecko_rank']
       coin.coingecko_score = output['coingecko_score']
       coin.developer_score = output['developer_score']
-      co
+      coin.community_score = output['community_score']
+  
