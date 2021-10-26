@@ -34,4 +34,4 @@ module CoingeckoRuby::Services::Coins
       coin.liquidity_score = output['liquidity_score']
       coin.public_interest_score = output['public_interest_score']
       coin.market_data = output['market_data']
-      coin.commu
+      coin.community_data = output['community_data']
