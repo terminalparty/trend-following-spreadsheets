@@ -37,4 +37,5 @@ module CoingeckoRuby::Services::Coins
       coin.community_data = output['community_data']
       coin.developer_data = output['developer_data']
       coin.public_interest_stats = output['public_interest_stats']
-      coin.status_updates = output
+      coin.status_updates = output['status_updates']
+      coin.last_update
