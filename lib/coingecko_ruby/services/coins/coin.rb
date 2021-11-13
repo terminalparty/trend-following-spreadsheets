@@ -41,4 +41,6 @@ module CoingeckoRuby::Services::Coins
       coin.last_updated = output['last_updated']
       coin.tickers = output['tickers']
       coin
-    en
+    end
+  end
+end
