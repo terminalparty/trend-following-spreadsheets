@@ -39,4 +39,6 @@ module CoingeckoRuby::Services::Coins
       coin.public_interest_stats = output['public_interest_stats']
       coin.status_updates = output['status_updates']
       coin.last_updated = output['last_updated']
-      coin.ticke
+      coin.tickers = output['tickers']
+      coin
+    en
