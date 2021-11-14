@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Coins
-  class List <
+  class List < CoingeckoRuby::Services
+    def fetch
+      o
