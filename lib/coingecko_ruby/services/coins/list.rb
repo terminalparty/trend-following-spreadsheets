@@ -7,4 +7,6 @@ module CoingeckoRuby::Services::Coins
       adapt(output)
     end
 
-    def adapt(o
+    def adapt(output)
+      lists = []
+      output.each d
