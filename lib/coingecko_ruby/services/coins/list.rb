@@ -3,4 +3,8 @@
 module CoingeckoRuby::Services::Coins
   class List < CoingeckoRuby::Services
     def fetch
-      output = super(CoingeckoRuby::Models::ApiLink.list
+      output = super(CoingeckoRuby::Models::ApiLink.list_url)
+      adapt(output)
+    end
+
+    def adapt(o
