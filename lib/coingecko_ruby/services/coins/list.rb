@@ -11,4 +11,6 @@ module CoingeckoRuby::Services::Coins
       lists = []
       output.each do |output|
         list        = CoingeckoRuby::Models::Coin.new
-        list.id     = output['i
+        list.id     = output['id']
+        list.symbol = output['symbol']
+     
