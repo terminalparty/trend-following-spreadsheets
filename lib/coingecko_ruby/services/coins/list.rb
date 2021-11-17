@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Coins
     def adapt(output)
       lists = []
       output.each do |output|
-        list        = CoingeckoRuby
+        list        = CoingeckoRuby::Models::Coin.new
+        list.id     = output['i
