@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::Coins
 
     def adapt(output)
       lists = []
-      output.each d
+      output.each do |output|
+        list        = CoingeckoRuby
