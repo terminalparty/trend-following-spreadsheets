@@ -14,4 +14,7 @@ module CoingeckoRuby::Services::Coins
         list.id     = output['id']
         list.symbol = output['symbol']
         list.name   = output['name']
-        l
+        lists << list
+      end
+      lists
+    end
