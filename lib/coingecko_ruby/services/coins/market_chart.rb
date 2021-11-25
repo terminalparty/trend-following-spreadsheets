@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-modul
+module CoingeckoRuby::Services::Coins
+  cla
