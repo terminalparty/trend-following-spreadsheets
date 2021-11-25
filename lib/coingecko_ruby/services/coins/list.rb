@@ -18,3 +18,5 @@ module CoingeckoRuby::Services::Coins
       end
       lists
     end
+  end
+end
