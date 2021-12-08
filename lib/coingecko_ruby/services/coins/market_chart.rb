@@ -11,4 +11,6 @@ module CoingeckoRuby::Services::Coins
 
     def adapt(output)
       coin = CoingeckoRuby::Models::Coin.new
-      coin.prices = output['prices'
+      coin.prices = output['prices']
+      coin.market_caps = output['market_caps']
+ 
