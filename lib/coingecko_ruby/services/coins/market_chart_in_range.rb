@@ -1,1 +1,3 @@
-# frozen_str
+# frozen_string_literal: true
+
+module CoingeckoRuby
