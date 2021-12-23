@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module CoingeckoRuby
+module CoingeckoRuby::Services::Coins
+  class MarketChar
