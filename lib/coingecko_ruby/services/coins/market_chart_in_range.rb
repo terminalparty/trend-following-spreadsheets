@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Coins
-  class MarketChar
+  class MarketChartInRange < CoingeckoRuby::Services
+    def fetch
