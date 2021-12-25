@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::Coins
       adapt(output)
     end
 
- 
+    def adapt(output)
+      coin = Coi
