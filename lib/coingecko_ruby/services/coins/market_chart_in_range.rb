@@ -15,4 +15,6 @@ module CoingeckoRuby::Services::Coins
       coin.market_caps = output['market_caps']
       coin.total_volumes = output['total_volumes']
       coin
-  
+    end
+  end
+end
