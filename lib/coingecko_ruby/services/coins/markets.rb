@@ -7,4 +7,9 @@ module CoingeckoRuby::Services::Coins
       output = super(CoingeckoRuby::Models::ApiLink.coin_markets_url(
         vs_currency, ids, order, per_page, page,
         sparkline, price_change_percentage
+      ))
+      adapt(output)
+    end
+
+    def adapt(output)
   
