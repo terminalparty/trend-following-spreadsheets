@@ -12,4 +12,5 @@ module CoingeckoRuby::Services::Coins
     end
 
     def adapt(output)
-  
+      output.map do |output|
+        coin = Coingec
