@@ -16,3 +16,5 @@ module CoingeckoRuby::Services::Coins
         coin = CoingeckoRuby::Models::Coin.new
         coin.id = output['id']
         coin.symbol = output['symbol']
+        coin.name = output['name']
+        coin.image = o
