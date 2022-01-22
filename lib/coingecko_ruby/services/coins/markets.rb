@@ -17,4 +17,5 @@ module CoingeckoRuby::Services::Coins
         coin.id = output['id']
         coin.symbol = output['symbol']
         coin.name = output['name']
-        coin.image = o
+        coin.image = output['image']
+        coin.current_pri
