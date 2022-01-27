@@ -20,4 +20,5 @@ module CoingeckoRuby::Services::Coins
         coin.image = output['image']
         coin.current_price = output['current_price']
         coin.market_cap = output['market_cap']
-        coin.market_cap_
+        coin.market_cap_rank = output['market_cap_rank']
+        coin.total_
