@@ -22,4 +22,5 @@ module CoingeckoRuby::Services::Coins
         coin.market_cap = output['market_cap']
         coin.market_cap_rank = output['market_cap_rank']
         coin.total_volume = output['total_volume']
-        coin.
+        coin.high_24h = output['high_24h']
+        coin.low_24
