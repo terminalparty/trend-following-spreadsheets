@@ -24,4 +24,5 @@ module CoingeckoRuby::Services::Coins
         coin.total_volume = output['total_volume']
         coin.high_24h = output['high_24h']
         coin.low_24h = output['low_24h']
-        coin.price_chan
+        coin.price_change_24h = output['price_change_24h']
+        
