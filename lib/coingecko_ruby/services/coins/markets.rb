@@ -26,4 +26,4 @@ module CoingeckoRuby::Services::Coins
         coin.low_24h = output['low_24h']
         coin.price_change_24h = output['price_change_24h']
         coin.price_change_percentage_24h = output['price_change_percentage_24h']
-        
+        coin.market_cap_change_24h = output['mark
