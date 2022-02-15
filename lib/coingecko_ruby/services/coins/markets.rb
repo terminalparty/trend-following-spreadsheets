@@ -30,4 +30,5 @@ module CoingeckoRuby::Services::Coins
         coin.market_cap_change_percentage_24h = output['market_cap_change_percentage_24h']
         coin.total_supply = output['total_supply']
         coin.ath = output['ath']
-        coin.ath_change_percentage 
+        coin.ath_change_percentage = output['ath_change_percentage']
+        coin.ath
