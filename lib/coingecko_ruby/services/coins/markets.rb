@@ -33,4 +33,5 @@ module CoingeckoRuby::Services::Coins
         coin.ath_change_percentage = output['ath_change_percentage']
         coin.ath_date = output['ath_date']
         coin.roi = output['roi']
-        coin.last_u
+        coin.last_updated = output['last_updated']
+        coi
