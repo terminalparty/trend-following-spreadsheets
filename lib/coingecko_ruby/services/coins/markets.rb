@@ -35,4 +35,4 @@ module CoingeckoRuby::Services::Coins
         coin.roi = output['roi']
         coin.last_updated = output['last_updated']
         coin.sparkline_in_7d = output['sparkline_in_7d']
-        coin.price_change_percentage_1h
+        coin.price_change_percentage_1h_in_currency = output['price_change_percentage_1h
