@@ -38,4 +38,6 @@ module CoingeckoRuby::Services::Coins
         coin.price_change_percentage_1h_in_currency = output['price_change_percentage_1h_in_currency']
         coin
       end
-   
+    end
+  end
+end
