@@ -3,4 +3,4 @@
 module CoingeckoRuby::Services::Coins
   class StatusUpdates < CoingeckoRuby::Services
     def fetch(id)
-      output
+      output = super(CoingeckoRuby::Models::ApiLink.coin_s
