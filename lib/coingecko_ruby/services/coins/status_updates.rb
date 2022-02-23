@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Coins
-  class StatusUpdat
+  class StatusUpdates < CoingeckoRuby::Services
+    def fetch(id)
+      output
