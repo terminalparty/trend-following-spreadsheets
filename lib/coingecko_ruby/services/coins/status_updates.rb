@@ -7,3 +7,5 @@ module CoingeckoRuby::Services::Coins
       adapt(output)
     end
 
+    def adapt(output)
+      output['status_updates'].map d
