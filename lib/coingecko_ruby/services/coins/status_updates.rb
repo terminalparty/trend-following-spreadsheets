@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::Coins
 
     def adapt(output)
       output['status_updates'].map do |output|
-        status_update = CoingeckoRu
+        status_update = CoingeckoRuby::Models::StatusUpdate.new
+        status_up
