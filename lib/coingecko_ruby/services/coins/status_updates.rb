@@ -16,4 +16,5 @@ module CoingeckoRuby::Services::Coins
         status_update.user = output['user']
         status_update.user_title = output['user_title']
         status_update.pin = output['pin']
-        sta
+        status_update.project = output['project']
+        st
