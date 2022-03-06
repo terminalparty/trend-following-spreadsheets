@@ -21,4 +21,4 @@ module CoingeckoRuby::Services::Coins
       end
     end
   end
-en
+end
