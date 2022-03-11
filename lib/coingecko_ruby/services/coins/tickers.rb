@@ -2,4 +2,4 @@
 
 module CoingeckoRuby::Services::Coins
   class Tickers < CoingeckoRuby::Services
-    def fetch(id, exc
+    def fetch(id, exchange_ids, include_exchange_logo, pag
