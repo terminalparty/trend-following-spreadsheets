@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::Coins
       adapt(output)
     end
 
-    def adap
+    def adapt(output)
+      coin = CoingeckoRuby::Models::Coin.new
