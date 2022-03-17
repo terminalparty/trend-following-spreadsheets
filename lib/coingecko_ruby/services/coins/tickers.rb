@@ -12,4 +12,7 @@ module CoingeckoRuby::Services::Coins
     def adapt(output)
       coin = CoingeckoRuby::Models::Coin.new
       coin.name = output['name']
-      coin.ticker
+      coin.tickers = output['tickers']
+      coin
+    end
+  end
