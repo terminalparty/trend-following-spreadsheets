@@ -16,3 +16,4 @@ module CoingeckoRuby::Services::Coins
       coin
     end
   end
+end
