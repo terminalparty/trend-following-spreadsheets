@@ -2,4 +2,5 @@
 
 module CoingeckoRuby::Services::Contract
   class Coin < CoingeckoRuby::Services
-    def fet
+    def fetch(id, contract_address)
+      output = super(Co
