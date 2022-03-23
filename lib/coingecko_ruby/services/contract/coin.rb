@@ -8,3 +8,6 @@ module CoingeckoRuby::Services::Contract
       ))
       adapt(output)
     end
+
+    def adapt(output)
+      coin = C
