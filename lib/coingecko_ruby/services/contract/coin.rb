@@ -17,4 +17,5 @@ module CoingeckoRuby::Services::Contract
       coin.asset_platform_id = output['asset_platform_id']
       coin.block_time_in_minutes = output['block_time_in_minutes']
       coin.categories = output['categories']
-      coin.localiza
+      coin.localization = output['localization']
+      coin.descr
