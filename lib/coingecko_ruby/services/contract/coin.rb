@@ -20,4 +20,5 @@ module CoingeckoRuby::Services::Contract
       coin.localization = output['localization']
       coin.description = output['description']
       coin.links = output['links']
-      coin.image = 
+      coin.image = output['image']
+      coin.country_origin = 
