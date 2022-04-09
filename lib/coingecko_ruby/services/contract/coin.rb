@@ -22,4 +22,5 @@ module CoingeckoRuby::Services::Contract
       coin.links = output['links']
       coin.image = output['image']
       coin.country_origin = output['country_origin']
-      coin.g
+      coin.genesis_date = output['genesis_date']
+     
