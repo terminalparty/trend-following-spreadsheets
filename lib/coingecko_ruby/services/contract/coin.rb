@@ -26,4 +26,5 @@ module CoingeckoRuby::Services::Contract
       coin.contract_address = output['contract_address']
       coin.sentiment_votes_up_percentage = output['sentiment_votes_up_percentage']
       coin.sentiment_votes_down_percentage = output['sentiment_votes_down_percentage']
-      coin.market_cap_rank = output
+      coin.market_cap_rank = output['market_cap_rank']
+      coin.coinge
