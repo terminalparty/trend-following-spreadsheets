@@ -28,4 +28,4 @@ module CoingeckoRuby::Services::Contract
       coin.sentiment_votes_down_percentage = output['sentiment_votes_down_percentage']
       coin.market_cap_rank = output['market_cap_rank']
       coin.coingecko_rank = output['coingecko_rank']
- 
+      coin.coingecko_score = output['coingecko_sc
