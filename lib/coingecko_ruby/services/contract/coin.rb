@@ -30,4 +30,5 @@ module CoingeckoRuby::Services::Contract
       coin.coingecko_rank = output['coingecko_rank']
       coin.coingecko_score = output['coingecko_score']
       coin.developer_score = output['developer_score']
-      coin.community_
+      coin.community_score = output['community_score']
+      coin.liquidity_sco
