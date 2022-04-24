@@ -33,4 +33,5 @@ module CoingeckoRuby::Services::Contract
       coin.community_score = output['community_score']
       coin.liquidity_score = output['liquidity_score']
       coin.public_interest_score = output['public_interest_score']
-      coin.market_data = output['market
+      coin.market_data = output['market_data']
+      coin.community_data = output['co
