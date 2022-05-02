@@ -40,3 +40,7 @@ module CoingeckoRuby::Services::Contract
       coin.status_updates = output['status_updates']
       coin.last_updated = output['last_updated']
       coin.tickers = output['tickers']
+      coin
+    end
+  end
+end
