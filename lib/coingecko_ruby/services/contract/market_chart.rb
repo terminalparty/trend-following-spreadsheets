@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Contract
     end
 
     def adapt(output)
- 
+      coin = CoingeckoRuby::Models::Coin.new
+     
