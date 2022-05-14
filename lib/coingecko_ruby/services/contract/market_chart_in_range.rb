@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module CoingeckoRuby::Services::C
+module CoingeckoRuby::Services::Contract
+  class MarketChartInRange < Coingec
