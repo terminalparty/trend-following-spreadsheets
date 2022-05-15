@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Contract
-  class MarketChartInRange < Coingec
+  class MarketChartInRange < CoingeckoRuby::Services
+    def fetch(id, c
