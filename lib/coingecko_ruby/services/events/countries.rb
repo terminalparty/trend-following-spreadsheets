@@ -3,4 +3,4 @@
 module CoingeckoRuby::Services::Events
   class Countries < CoingeckoRuby::Services
     def fetch
-      output =
+      output = super(CoingeckoRuby::Models::ApiLink
