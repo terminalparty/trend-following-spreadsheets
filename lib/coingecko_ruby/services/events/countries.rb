@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Events
-  class Countries < Coi
+  class Countries < CoingeckoRuby::Services
+    def fetch
+      output =
