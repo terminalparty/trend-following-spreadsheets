@@ -5,4 +5,7 @@ module CoingeckoRuby::Services::Events
     def fetch
       output = super(CoingeckoRuby::Models::ApiLink.events_countries_url)
       adapt(output)
-    en
+    end
+
+    def adapt(output)
+      output['data'].ma
