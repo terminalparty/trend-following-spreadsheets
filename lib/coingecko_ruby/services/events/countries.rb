@@ -8,4 +8,5 @@ module CoingeckoRuby::Services::Events
     end
 
     def adapt(output)
-      output['data'].ma
+      output['data'].map do |output|
+        country = CoingeckoRuby::M
