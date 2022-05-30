@@ -11,4 +11,8 @@ module CoingeckoRuby::Services::Events
       output['data'].map do |output|
         country = CoingeckoRuby::Models::Event.new
         country.country = output['country']
-        country.code = output['
+        country.code = output['code']
+        country
+      end
+    end
+ 
