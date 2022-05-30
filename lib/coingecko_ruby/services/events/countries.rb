@@ -15,4 +15,5 @@ module CoingeckoRuby::Services::Events
         country
       end
     end
- 
+  end
+end
