@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module Co
+module CoingeckoRuby::Services::Events
+  class Events < 
