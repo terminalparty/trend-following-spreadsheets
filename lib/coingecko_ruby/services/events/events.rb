@@ -3,4 +3,6 @@
 module CoingeckoRuby::Services::Events
   class Events < CoingeckoRuby::Services
     def fetch
-      output = super(CoingeckoRuby::Mode
+      output = super(CoingeckoRuby::Models::ApiLink.events_url)
+      adapt(output)
+    en
