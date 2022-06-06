@@ -5,4 +5,7 @@ module CoingeckoRuby::Services::Events
     def fetch
       output = super(CoingeckoRuby::Models::ApiLink.events_url)
       adapt(output)
-    en
+    end
+
+    def adapt(output)
+      output['data'].map do |out
