@@ -8,4 +8,5 @@ module CoingeckoRuby::Services::Events
     end
 
     def adapt(output)
-      output['data'].map do |out
+      output['data'].map do |output|
+        event = CoingeckoRuby::Models::Event.n
