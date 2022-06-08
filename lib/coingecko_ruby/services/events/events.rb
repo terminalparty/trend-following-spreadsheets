@@ -11,3 +11,5 @@ module CoingeckoRuby::Services::Events
       output['data'].map do |output|
         event = CoingeckoRuby::Models::Event.new
         event.type = output['type']
+        event.title = output['title']
+        event.descr
