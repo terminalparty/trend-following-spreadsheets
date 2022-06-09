@@ -12,4 +12,5 @@ module CoingeckoRuby::Services::Events
         event = CoingeckoRuby::Models::Event.new
         event.type = output['type']
         event.title = output['title']
-        event.descr
+        event.description = output['description']
+        event.
