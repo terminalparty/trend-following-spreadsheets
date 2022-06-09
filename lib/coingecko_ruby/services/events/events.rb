@@ -13,4 +13,4 @@ module CoingeckoRuby::Services::Events
         event.type = output['type']
         event.title = output['title']
         event.description = output['description']
-        event.
+        event.organizer = output['organizer'
