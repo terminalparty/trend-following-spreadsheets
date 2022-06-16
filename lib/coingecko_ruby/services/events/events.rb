@@ -18,4 +18,5 @@ module CoingeckoRuby::Services::Events
         event.end_date = output['end_date']
         event.website = output['website']
         event.email = output['email']
-        event.venue = output
+        event.venue = output['venue']
+        event.address = output['a
