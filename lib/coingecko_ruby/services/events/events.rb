@@ -19,4 +19,6 @@ module CoingeckoRuby::Services::Events
         event.website = output['website']
         event.email = output['email']
         event.venue = output['venue']
-        event.address = output['a
+        event.address = output['address']
+        event.city = output['city']
+       
