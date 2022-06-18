@@ -21,4 +21,5 @@ module CoingeckoRuby::Services::Events
         event.venue = output['venue']
         event.address = output['address']
         event.city = output['city']
-       
+        event.country = output['country']
+        event.scree
