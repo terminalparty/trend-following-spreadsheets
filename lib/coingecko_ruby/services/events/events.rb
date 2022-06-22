@@ -24,4 +24,7 @@ module CoingeckoRuby::Services::Events
         event.country = output['country']
         event.screenshot = output['screenshot']
         event
- 
+      end
+    end
+  end
+end
