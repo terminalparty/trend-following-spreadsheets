@@ -18,3 +18,7 @@ module CoingeckoRuby::Services::ExchangeRates
         exchange_rate.type = output['type']
         exchange_rates << exchange_rate
       end
+      exchange_rates
+    end
+  end
+end
