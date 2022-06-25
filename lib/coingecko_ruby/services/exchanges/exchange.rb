@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module Coingec
+module CoingeckoRuby::Services::Exchanges
+  class Ex
