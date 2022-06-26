@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Exchanges
-  class Ex
+  class Exchange < CoingeckoRuby::Services
+    def fetch(id)
+ 
