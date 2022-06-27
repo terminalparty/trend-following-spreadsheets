@@ -7,4 +7,5 @@ module CoingeckoRuby::Services::Exchanges
       adapt(output)
     end
 
-    
+    def adapt(output)
+      exchange = Coi
