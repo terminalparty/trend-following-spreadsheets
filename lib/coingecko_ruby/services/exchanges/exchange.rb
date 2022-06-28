@@ -8,4 +8,5 @@ module CoingeckoRuby::Services::Exchanges
     end
 
     def adapt(output)
-      exchange = Coi
+      exchange = CoingeckoRuby::Models::Exchange.new
+      exchange.na
