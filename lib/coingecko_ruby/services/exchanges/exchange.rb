@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Exchanges
     def adapt(output)
       exchange = CoingeckoRuby::Models::Exchange.new
       exchange.name = output['name']
-      exchange.year_established = outp
+      exchange.year_established = output['year_established']
+      exchange.country
