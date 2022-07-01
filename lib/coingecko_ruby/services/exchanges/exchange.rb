@@ -13,4 +13,6 @@ module CoingeckoRuby::Services::Exchanges
       exchange.year_established = output['year_established']
       exchange.country = output['country']
       exchange.description = output['description']
-      exchange.url = output
+      exchange.url = output['url']
+      exchange.image = output['image']
+      exc
