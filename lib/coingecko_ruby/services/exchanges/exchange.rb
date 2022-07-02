@@ -15,4 +15,5 @@ module CoingeckoRuby::Services::Exchanges
       exchange.description = output['description']
       exchange.url = output['url']
       exchange.image = output['image']
-      exchange.has_trading_incentive = output['h
+      exchange.has_trading_incentive = output['has_trading_incentive']
+      exchange.trade_v
