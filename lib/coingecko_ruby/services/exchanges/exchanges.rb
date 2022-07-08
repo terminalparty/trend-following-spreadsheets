@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module CoingeckoRuby::S
+module CoingeckoRuby::Services::Exchanges
+  class Exchanges < Coin
