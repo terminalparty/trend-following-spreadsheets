@@ -7,4 +7,7 @@ module CoingeckoRuby::Services::Exchanges
       adapt(output)
     end
 
-    def adapt(o
+    def adapt(output)
+      exchanges = []
+
+    
