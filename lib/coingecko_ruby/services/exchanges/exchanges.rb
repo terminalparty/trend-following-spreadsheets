@@ -11,4 +11,5 @@ module CoingeckoRuby::Services::Exchanges
       exchanges = []
 
       output.each do |output|
-        exchange = CoingeckoRu
+        exchange = CoingeckoRuby::Models::Exchange.new
+        exchan
