@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Exchanges
     def adapt(output)
       exchanges = []
 
-    
+      output.each do |output|
+        exchange = CoingeckoRu
