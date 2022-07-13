@@ -13,4 +13,5 @@ module CoingeckoRuby::Services::Exchanges
       output.each do |output|
         exchange = CoingeckoRuby::Models::Exchange.new
         exchange.id = output['id']
-        exchange.name = output['name
+        exchange.name = output['name']
+        exchange.year_established = output['year_est
