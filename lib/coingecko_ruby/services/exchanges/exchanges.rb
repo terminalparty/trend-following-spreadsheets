@@ -18,4 +18,5 @@ module CoingeckoRuby::Services::Exchanges
         exchange.country = output['country']
         exchange.description = output['description']
         exchange.url = output['url']
-   
+        exchange.image = output['image']
+        exchan
