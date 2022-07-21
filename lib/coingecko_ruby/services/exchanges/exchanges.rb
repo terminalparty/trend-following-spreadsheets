@@ -20,4 +20,4 @@ module CoingeckoRuby::Services::Exchanges
         exchange.url = output['url']
         exchange.image = output['image']
         exchange.has_trading_incentive = output['has_trading_incentive']
-        exchange.trade
+        exchange.trade_volume_24h_btc = output['trade_volume_24h_btc']
