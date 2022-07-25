@@ -23,4 +23,8 @@ module CoingeckoRuby::Services::Exchanges
         exchange.trade_volume_24h_btc = output['trade_volume_24h_btc']
         exchange.trade_volume_24h_btc_normalized = output['trade_volume_24h_btc_normalized']
         exchanges << exchange
-      e
+      end
+      exchanges
+    end
+  end
+end
