@@ -7,4 +7,6 @@ module CoingeckoRuby::Services::Exchanges
       adapt(output)
     end
 
-    def adap
+    def adapt(output)
+      output.map do |output|
+        exchange
