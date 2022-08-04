@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Exchanges
     def adapt(output)
       output.map do |output|
         exchange = CoingeckoRuby::Models::Exchange.new
-       
+        exchange.id = output['id']
+        exchange
