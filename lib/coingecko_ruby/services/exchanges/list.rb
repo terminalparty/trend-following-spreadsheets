@@ -11,4 +11,5 @@ module CoingeckoRuby::Services::Exchanges
       output.map do |output|
         exchange = CoingeckoRuby::Models::Exchange.new
         exchange.id = output['id']
+        exchange.name = output['name']
         exchange
