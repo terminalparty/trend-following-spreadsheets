@@ -13,3 +13,7 @@ module CoingeckoRuby::Services::Exchanges
         exchange.id = output['id']
         exchange.name = output['name']
         exchange
+      end
+    end
+  end
+end
