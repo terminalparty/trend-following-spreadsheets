@@ -2,4 +2,5 @@
 
 module CoingeckoRuby::Services::Exchanges
   class StatusUpdates < CoingeckoRuby::Services
-    def fe
+    def fetch(id)
+      output = super(Coin
