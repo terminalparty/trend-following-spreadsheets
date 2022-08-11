@@ -10,4 +10,5 @@ module CoingeckoRuby::Services::Exchanges
     def adapt(output)
       output['status_updates'].map do |output|
         status_update = CoingeckoRuby::Models::StatusUpdate.new
-        
+        status_update.description = output['description']
+   
