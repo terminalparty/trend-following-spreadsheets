@@ -11,4 +11,5 @@ module CoingeckoRuby::Services::Exchanges
       output['status_updates'].map do |output|
         status_update = CoingeckoRuby::Models::StatusUpdate.new
         status_update.description = output['description']
-        status_update.category = output['cate
+        status_update.category = output['category']
+        status_update.created_at =
