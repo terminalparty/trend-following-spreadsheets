@@ -13,4 +13,5 @@ module CoingeckoRuby::Services::Exchanges
         status_update.description = output['description']
         status_update.category = output['category']
         status_update.created_at = output['created_at']
-        status_update.user = outp
+        status_update.user = output['user']
+        status_update.user_ti
