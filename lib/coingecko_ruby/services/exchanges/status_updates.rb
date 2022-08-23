@@ -21,4 +21,4 @@ module CoingeckoRuby::Services::Exchanges
       end
     end
   end
-en
+end
