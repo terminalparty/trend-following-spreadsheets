@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module CoingeckoRuby::Services::E
+module CoingeckoRuby::Services::Exchanges
+  class VolumeChart < CoingeckoRuby::
