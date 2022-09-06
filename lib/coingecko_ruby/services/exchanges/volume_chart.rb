@@ -3,4 +3,6 @@
 module CoingeckoRuby::Services::Exchanges
   class VolumeChart < CoingeckoRuby::Services
     def fetch(id, days)
-      output = super(CoingeckoRuby::Models::ApiLink.exchange_volum
+      output = super(CoingeckoRuby::Models::ApiLink.exchange_volume_chart_url(
+        id, days
+      ))
