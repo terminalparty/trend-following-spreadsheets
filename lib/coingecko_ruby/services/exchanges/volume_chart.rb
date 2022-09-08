@@ -6,3 +6,7 @@ module CoingeckoRuby::Services::Exchanges
       output = super(CoingeckoRuby::Models::ApiLink.exchange_volume_chart_url(
         id, days
       ))
+      adapt(output)
+    end
+
+    def adapt(output
