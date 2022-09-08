@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::Exchanges
       adapt(output)
     end
 
-    def adapt(output
+    def adapt(output)
+      exchange = CoingeckoRuby::Models::E
