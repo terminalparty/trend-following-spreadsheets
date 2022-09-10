@@ -12,4 +12,7 @@ module CoingeckoRuby::Services::Exchanges
     def adapt(output)
       exchange = CoingeckoRuby::Models::Exchange.new
       exchange.volume_chart = output
-   
+      exchange
+    end
+  end
+end
