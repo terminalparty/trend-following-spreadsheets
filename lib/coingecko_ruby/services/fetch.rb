@@ -3,4 +3,4 @@
 module CoingeckoRuby
   class Services
     def fetch(endpoint)
-      JSON.parse(HT
+      JSON.parse(HTTP.timeout(write: 2, connect: 5, read: 8).get(endp
