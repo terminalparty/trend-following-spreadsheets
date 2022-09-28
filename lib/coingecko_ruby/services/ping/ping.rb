@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module Coin
+module CoingeckoRuby::Services::Ping
+  class Ping <
