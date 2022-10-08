@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::Ping
-  class Ping <
+  class Ping < CoingeckoRuby::Services
+    def fetc
