@@ -4,4 +4,7 @@ module CoingeckoRuby::Services::Ping
   class Ping < CoingeckoRuby::Services
     def fetch
       output = super(CoingeckoRuby::Models::ApiLink.ping_url)
-      output['gecko_s
+      output['gecko_says']
+    end
+  end
+end
