@@ -2,4 +2,5 @@
 
 module CoingeckoRuby::Services::Ping
   class Ping < CoingeckoRuby::Services
-    def fetc
+    def fetch
+      output = super(CoingeckoRuby::M
