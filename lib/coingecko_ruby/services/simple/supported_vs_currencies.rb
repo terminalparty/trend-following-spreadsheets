@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module Coinge
+module CoingeckoRuby::Services::Simple
+  class SupportedVsCurre
