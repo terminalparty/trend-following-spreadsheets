@@ -24,3 +24,8 @@ module CoingeckoRuby::Services::Simple
         price.change_24h = output[1]["#{vs_currencies}_24h_change"]
         price.last_updated_at = output[1]['last_updated_at']
         prices << price
+      end
+      prices
+    end
+  end
+end
