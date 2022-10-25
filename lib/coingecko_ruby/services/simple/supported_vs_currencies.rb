@@ -10,3 +10,5 @@ module CoingeckoRuby::Services::Simple
     def adapt(output)
       output
     end
+  end
+end
