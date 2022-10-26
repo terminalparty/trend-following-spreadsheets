@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-module Coi
+module CoingeckoRuby::Services::Simple
+  class TokenPrice
