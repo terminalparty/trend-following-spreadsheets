@@ -2,4 +2,4 @@
 
 module CoingeckoRuby::Services::Simple
   class TokenPrice < CoingeckoRuby::Services
-    def fetch(id, con
+    def fetch(id, contract_addresses, vs_currencies, includ
