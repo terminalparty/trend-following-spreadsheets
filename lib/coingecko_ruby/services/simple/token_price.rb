@@ -5,3 +5,4 @@ module CoingeckoRuby::Services::Simple
     def fetch(id, contract_addresses, vs_currencies, include_market_cap,
               include_24hr_vol, include_24hr_change,
               include_last_updated_at)
+      output = super(CoingeckoRuby::Models::ApiLink
