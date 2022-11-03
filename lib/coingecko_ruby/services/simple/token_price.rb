@@ -7,4 +7,5 @@ module CoingeckoRuby::Services::Simple
               include_last_updated_at)
       output = super(CoingeckoRuby::Models::ApiLink.simple_token_price_url(id, contract_addresses, vs_currencies,
                                                                            include_market_cap, include_24hr_vol,
-                                                                           includ
+                                                                           include_24hr_change,
+                    
