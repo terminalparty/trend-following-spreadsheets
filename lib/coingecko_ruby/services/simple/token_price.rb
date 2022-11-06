@@ -9,4 +9,7 @@ module CoingeckoRuby::Services::Simple
                                                                            include_market_cap, include_24hr_vol,
                                                                            include_24hr_change,
                                                                            include_last_updated_at))
-      adapt(output, vs_currencies, id, contract_addresses
+      adapt(output, vs_currencies, id, contract_addresses)
+    end
+
+    def adapt(output, vs_currencies,
