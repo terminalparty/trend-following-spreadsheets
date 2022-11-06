@@ -12,4 +12,5 @@ module CoingeckoRuby::Services::Simple
       adapt(output, vs_currencies, id, contract_addresses)
     end
 
-    def adapt(output, vs_currencies,
+    def adapt(output, vs_currencies, id, contract_addresses)
+      prices = []
