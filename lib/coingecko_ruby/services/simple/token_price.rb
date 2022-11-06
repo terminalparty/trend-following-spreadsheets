@@ -8,4 +8,5 @@ module CoingeckoRuby::Services::Simple
       output = super(CoingeckoRuby::Models::ApiLink.simple_token_price_url(id, contract_addresses, vs_currencies,
                                                                            include_market_cap, include_24hr_vol,
                                                                            include_24hr_change,
-                                                                          
+                                                                           include_last_updated_at))
+      adapt(out
