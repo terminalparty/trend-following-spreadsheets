@@ -14,3 +14,6 @@ module CoingeckoRuby::Services::Simple
 
     def adapt(output, vs_currencies, id, contract_addresses)
       prices = []
+
+      output.each do |output|
+        price = Co
