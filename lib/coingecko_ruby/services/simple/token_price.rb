@@ -18,4 +18,4 @@ module CoingeckoRuby::Services::Simple
       output.each do |output|
         price = CoingeckoRuby::Models::Simple.new
         price.id = id
- 
+        price.contract_addresses = contract_addresses
