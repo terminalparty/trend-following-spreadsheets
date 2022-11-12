@@ -19,3 +19,4 @@ module CoingeckoRuby::Services::Simple
         price = CoingeckoRuby::Models::Simple.new
         price.id = id
         price.contract_addresses = contract_addresses
+        price.last = output[1][vs_curr
