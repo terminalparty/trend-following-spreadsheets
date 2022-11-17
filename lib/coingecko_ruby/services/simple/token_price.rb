@@ -20,4 +20,5 @@ module CoingeckoRuby::Services::Simple
         price.id = id
         price.contract_addresses = contract_addresses
         price.last = output[1][vs_currencies.to_s]
-        price.market_cap = output[1]["#{vs_currencies}_market_c
+        price.market_cap = output[1]["#{vs_currencies}_market_cap"]
+        price.vol_24h = output[1]["#{vs_c
