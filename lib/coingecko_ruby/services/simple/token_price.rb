@@ -22,4 +22,4 @@ module CoingeckoRuby::Services::Simple
         price.last = output[1][vs_currencies.to_s]
         price.market_cap = output[1]["#{vs_currencies}_market_cap"]
         price.vol_24h = output[1]["#{vs_currencies}_24h_vol"]
-        price.chang
+        price.change_24h = output[1]["#{vs_currencies}_24h_
