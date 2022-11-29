@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
 module CoingeckoRuby::Services::StatusUpdate
-  class StatusUpda
+  class StatusUpdate < CoingeckoRuby::Services
+    def fetch(category, proj
