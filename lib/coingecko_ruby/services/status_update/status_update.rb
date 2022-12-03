@@ -2,4 +2,5 @@
 
 module CoingeckoRuby::Services::StatusUpdate
   class StatusUpdate < CoingeckoRuby::Services
-    def fetch(category, proj
+    def fetch(category, project_type, per_page, page)
+      output = 
