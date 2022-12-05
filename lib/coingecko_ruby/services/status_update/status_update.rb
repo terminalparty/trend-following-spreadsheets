@@ -3,4 +3,4 @@
 module CoingeckoRuby::Services::StatusUpdate
   class StatusUpdate < CoingeckoRuby::Services
     def fetch(category, project_type, per_page, page)
-      output = super(CoingeckoRuby::Models::ApiLink.status_upd
+      output = super(CoingeckoRuby::Models::ApiLink.status_update_url(category, project_type, per_page, p
