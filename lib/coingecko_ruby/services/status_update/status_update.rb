@@ -10,4 +10,4 @@ module CoingeckoRuby::Services::StatusUpdate
     def adapt(output)
       status_updates = []
       output['status_updates'].each do |output|
-    
+        status_update = CoingeckoRuby::Models::StatusUpdate
