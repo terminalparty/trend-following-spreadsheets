@@ -7,4 +7,6 @@ module CoingeckoRuby::Services::StatusUpdate
       adapt(output)
     end
 
-    def ada
+    def adapt(output)
+      status_updates = []
+      o
