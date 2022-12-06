@@ -9,4 +9,5 @@ module CoingeckoRuby::Services::StatusUpdate
 
     def adapt(output)
       status_updates = []
-      o
+      output['status_updates'].each do |output|
+    
