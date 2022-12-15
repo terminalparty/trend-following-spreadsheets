@@ -12,4 +12,5 @@ module CoingeckoRuby::Services::StatusUpdate
       output['status_updates'].each do |output|
         status_update = CoingeckoRuby::Models::StatusUpdate.new
         status_update.description = output['description']
-        status_update.categor
+        status_update.category = output['category']
+        status_update.c
