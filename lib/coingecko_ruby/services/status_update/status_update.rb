@@ -13,4 +13,5 @@ module CoingeckoRuby::Services::StatusUpdate
         status_update = CoingeckoRuby::Models::StatusUpdate.new
         status_update.description = output['description']
         status_update.category = output['category']
-        status_update.c
+        status_update.created_at = output['created_at']
+        status_
