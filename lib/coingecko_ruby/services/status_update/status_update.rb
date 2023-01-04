@@ -15,4 +15,5 @@ module CoingeckoRuby::Services::StatusUpdate
         status_update.category = output['category']
         status_update.created_at = output['created_at']
         status_update.user = output['user']
-        status_update.user_title 
+        status_update.user_title = output['user_title']
+        status_update.pin
