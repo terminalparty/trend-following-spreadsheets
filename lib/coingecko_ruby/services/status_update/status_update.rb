@@ -22,4 +22,5 @@ module CoingeckoRuby::Services::StatusUpdate
       end
       status_updates
     end
-  en
+  end
+end
