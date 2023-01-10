@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
 require 'http'
-r
+require 'json'
+require 'byebug'
+require 'coingec
