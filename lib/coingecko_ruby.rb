@@ -3,4 +3,6 @@
 require 'http'
 require 'json'
 require 'byebug'
-require 'coingec
+require 'coingecko_ruby/client'
+
+require 'coingecko_ruby/models/ap
