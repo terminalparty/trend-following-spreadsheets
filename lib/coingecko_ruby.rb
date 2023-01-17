@@ -9,4 +9,5 @@ require 'coingecko_ruby/models/api_link'
 require 'coingecko_ruby/models/coin'
 require 'coingecko_ruby/models/exchange'
 require 'coingecko_ruby/models/list'
-require '
+require 'coingecko_ruby/models/simple'
+require 'coingecko_r
