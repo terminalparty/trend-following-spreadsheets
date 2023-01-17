@@ -8,4 +8,5 @@ require 'coingecko_ruby/client'
 require 'coingecko_ruby/models/api_link'
 require 'coingecko_ruby/models/coin'
 require 'coingecko_ruby/models/exchange'
-r
+require 'coingecko_ruby/models/list'
+require '
