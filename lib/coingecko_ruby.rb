@@ -10,4 +10,5 @@ require 'coingecko_ruby/models/coin'
 require 'coingecko_ruby/models/exchange'
 require 'coingecko_ruby/models/list'
 require 'coingecko_ruby/models/simple'
-require 'coingecko_r
+require 'coingecko_ruby/models/status_update'
+require 'co
