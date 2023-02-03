@@ -11,4 +11,5 @@ require 'coingecko_ruby/models/exchange'
 require 'coingecko_ruby/models/list'
 require 'coingecko_ruby/models/simple'
 require 'coingecko_ruby/models/status_update'
-require 'co
+require 'coingecko_ruby/models/global'
+require 'coingecko_ru
