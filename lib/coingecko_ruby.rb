@@ -13,4 +13,6 @@ require 'coingecko_ruby/models/simple'
 require 'coingecko_ruby/models/status_update'
 require 'coingecko_ruby/models/global'
 require 'coingecko_ruby/models/exchange_rate'
-require 'coingecko_ruby/
+require 'coingecko_ruby/models/event'
+
+require 'coingecko_ruby/services/fe
