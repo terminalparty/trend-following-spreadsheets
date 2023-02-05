@@ -15,4 +15,6 @@ require 'coingecko_ruby/models/global'
 require 'coingecko_ruby/models/exchange_rate'
 require 'coingecko_ruby/models/event'
 
-require 'coingecko_ruby/services/fe
+require 'coingecko_ruby/services/fetch'
+
+require 'coingecko_ruby/services/ping/pin
