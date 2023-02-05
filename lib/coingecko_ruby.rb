@@ -17,4 +17,7 @@ require 'coingecko_ruby/models/event'
 
 require 'coingecko_ruby/services/fetch'
 
-require 'coingecko_ruby/services/ping/pin
+require 'coingecko_ruby/services/ping/ping'
+
+require 'coingecko_ruby/services/simple/price'
+require
