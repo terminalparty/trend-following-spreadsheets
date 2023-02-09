@@ -23,4 +23,5 @@ require 'coingecko_ruby/services/simple/price'
 require 'coingecko_ruby/services/simple/token_price'
 require 'coingecko_ruby/services/simple/supported_vs_currencies'
 
-require 'co
+require 'coingecko_ruby/services/coins/list'
+require 'coingecko_ruby
