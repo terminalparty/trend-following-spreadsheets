@@ -29,4 +29,4 @@ require 'coingecko_ruby/services/coins/markets'
 require 'coingecko_ruby/services/coins/tickers'
 require 'coingecko_ruby/services/coins/history'
 require 'coingecko_ruby/services/coins/market_chart'
-require 'coing
+require 'coingecko_ruby/services/coins/market_chart_in_range'
