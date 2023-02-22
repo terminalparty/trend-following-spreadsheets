@@ -36,4 +36,4 @@ require 'coingecko_ruby/services/contract/coin'
 require 'coingecko_ruby/services/contract/market_chart'
 require 'coingecko_ruby/services/contract/market_chart_in_range'
 
-requ
+require 'coingecko_ruby/services/exchanges/
