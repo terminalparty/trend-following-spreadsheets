@@ -45,4 +45,5 @@ require 'coingecko_ruby/services/exchanges/volume_chart'
 
 require 'coingecko_ruby/services/status_update/status_update'
 
-require 'coingecko_ruby/se
+require 'coingecko_ruby/services/events/events'
+require 'coingecko_ruby/services/
