@@ -48,4 +48,6 @@ require 'coingecko_ruby/services/status_update/status_update'
 require 'coingecko_ruby/services/events/events'
 require 'coingecko_ruby/services/events/countries'
 
-require 'coingecko_ruby/servic
+require 'coingecko_ruby/services/global/global'
+
+require 'coingecko_ruby/ser
