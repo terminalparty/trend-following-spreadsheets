@@ -50,4 +50,4 @@ require 'coingecko_ruby/services/events/countries'
 
 require 'coingecko_ruby/services/global/global'
 
-require 'coingecko_ruby/ser
+require 'coingecko_ruby/services/exchange_rates/exchange_rates'
