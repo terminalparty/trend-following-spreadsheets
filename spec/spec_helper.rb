@@ -3,4 +3,4 @@ require "coingecko/ruby"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
-  con
+  config.example_status_persistence_file_path = 
